@@ -38,7 +38,7 @@ for (let i = 0; i < numbers.length; i++) {
     } else {
         numbers[i] = numbers[i] * 3;
     }
-    console.log(numbers[i])
+    console.log(numbers[i]);
 }
 console.log("-----------------------------");
 

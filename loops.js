@@ -30,7 +30,7 @@ console.log("-------------------------------------");
 // ==========================================
 
 for (let i = 0; i < 5; i++) {
-    if ( i < 4 ){
+    if ( i < 4 ) {
         console.log("loop...");
     } else {
         console.log("klaar!");
@@ -63,7 +63,7 @@ for (let i = 0; i < 10; i++) {
     } else {
         pijlGetal = " " + i;
     }
-    if ( i === 9 ){
+    if ( i === 9 ) {
         console.log(pijl.repeat( i / 3 - 1) + pijlGetal);
     } else {
         console.log(pijl.repeat( i / 3) + pijlGetal);

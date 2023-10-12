@@ -63,7 +63,7 @@ console.log("------------------------");
 // ==========================================
 
 // Al bij opdracht 1b uitgevoerd.
-console.log(scores)
+console.log(scores);
 console.log("------------------------");
 
 // ==========================================
