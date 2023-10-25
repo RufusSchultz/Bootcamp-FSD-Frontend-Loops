@@ -11,9 +11,13 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
+let stars = "";
+const star = "*";
 
-
-
+for (let i = 0; i < 6; i++) {
+    console.log(stars = star.repeat(i));
+}
+console.log("-------------------------------------");
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de laatste (vijfde) loop het woord "klaar!"
@@ -25,9 +29,14 @@
 // klaar!
 // ==========================================
 
-
-
-
+for (let i = 0; i < 5; i++) {
+    if ( i < 4 ) {
+        console.log("loop...");
+    } else {
+        console.log("klaar!");
+    }
+}
+console.log("-------------------------------------");
 
 // ==========================================
 // Opdracht 3: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
@@ -45,9 +54,22 @@
 // >> 9
 // ==========================================
 
+let pijlGetal = "";
+const pijl = ">";
 
-
-
+for (let i = 0; i < 10; i++) {
+    if ( i < 3) {
+        pijlGetal = i;
+    } else {
+        pijlGetal = " " + i;
+    }
+    if ( i === 9 ) {
+        console.log(pijl.repeat( i / 3 - 1) + pijlGetal);
+    } else {
+        console.log(pijl.repeat( i / 3) + pijlGetal);
+    }
+}
+console.log("-------------------------------------");
 
 // ==========================================
 // Opdracht 4 (BONUS): schrijf een for-loop die van 0 tot 100 loopt en de getallen print.
@@ -87,5 +109,14 @@
 // etc.
 // ==========================================
 
-
-
+for (let i = 0; i < 101; i++) {
+    if (i % 15 === 0) {
+        console.log("FizzBuzz");
+    } else if (i % 5 === 0) {
+        console.log("Buzz");
+    } else if (i % 3 === 0) {
+        console.log("Fizz");
+    } else {
+        console.log(i);
+    }
+}
